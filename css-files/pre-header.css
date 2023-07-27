@@ -1,0 +1,48 @@
+.pre-header{
+    color: white;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px 50px;
+    align-items: center;
+    
+}
+.part1 {
+    
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+          
+}
+.part1 a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: transform 0.5s;   
+}
+
+.pre-header-alt{
+    background-color: #8f1c1c;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+}
+.social-icons-header{
+    display: flex;
+    font-size: 18px;
+}
+.social-icons-header p{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .pre-header-contact{
+        display: flex;
+        text-align: end;
+      }
+
+    }
+

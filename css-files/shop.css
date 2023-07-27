@@ -1,0 +1,92 @@
+
+.shop-home{
+    margin-top: 2px;
+    background-color: #F2F3F5;
+    height: 300px;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+.shop-home h1{
+    top: 30%;
+    left: 45%;
+    color: black;
+    position: absolute;
+    padding: 0px 0px;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-container, .shop-container-YATONE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    row-gap: 10px;
+    column-gap: 5px;
+    margin-bottom: 50px;
+}
+
+.shelf-container{
+    width: 250px;
+    
+    transition: 0.5s;
+    overflow: hidden;  
+    text-align: center;
+    border: solid 0.5px;
+    border-color: #F2F3F5;
+}
+.shelf-image img{
+    width: 50%;
+}
+.title, .shelf-item-price{
+    background-color: white;
+    border: solid 0.5px;
+    border-color: #F2F3F5;
+
+}
+.shelf-container button{
+    width: 100%;
+    left: 80%;
+    padding: 12px 10px;
+    color: white;
+    background-color: brown;
+    font-size: 14px;
+    border: none;
+}
+.side-shop{   
+   
+    width: 400px;
+    margin-left: 50px;
+    
+    
+}
+@media only screen and (max-width: 768px) {
+    .side-shop {
+        display: none;
+    }
+}
+.side-shop-list{
+    padding: 0 15px;
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+    width: 100px;
+    
+}
+.side-shop-list a{
+    text-decoration: none;
+    color: white;
+}
+.side-shop-list:hover{
+    width: 150px;
+    transform: translateX(50px);
+    color: white;
+    background-color: black;
+}
+.shop-container-YATONE{
+    background-color: aliceblue;
+}
