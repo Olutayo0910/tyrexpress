@@ -85,23 +85,30 @@
 
 .swiper .swiper-button-prev, .swiper-button-next{
     color: brown;
+    
 }
-@media(min-width: 320px){
-    .board{
-        width: auto;
-    }
+@media only screen and (max-width: 768px) {
+
+    
     .board>h1, p{
         padding: 0 2em;
     }
-}
-@media(min-width: 768px){
+
     .board{
-        width: 100%;
+        width: 350px;
     }
     .swiper{
-        width: 600px;
+        width: 300px;
     }
     .swiper .swiper-button-prev, .swiper-button-next{
-        display: initial;
+        display: none;
     }
+    .swiper .swiper-slide .comments{
+        background-color: white;
+        padding: 1.5em 2em;
+        width: 60%;
+        border-radius: 5px;
+        font-size: .7em;
+}
+
 }
