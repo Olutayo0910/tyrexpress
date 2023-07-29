@@ -35,3 +35,8 @@
     display: flex;
     flex-basis: 25%;
 }
+@media only screen and (max-width: 768px) {
+    .brands-subtitle h1{
+        font-size: 24px;
+    }
+}
