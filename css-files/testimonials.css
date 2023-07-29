@@ -110,5 +110,121 @@
         border-radius: 5px;
         font-size: .7em;
 }
+.subtitle h1{
+    font-size: 24px;
+}
+
+}@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Poppins&display=swap');
+
+*>*{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --color-dark: #151C35;
+    --color-secondary-dark: #464C70;
+    --color-primary: #EE709D;
+    --color-text: #8297E2;
+    --color-light: #EBEBFB;
+}
+
+.reviews-container{
+    margin-top: 70px;
+    height: 98ev;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.board{
+    max-width: 987px;
+    width: 100%;
+    background-color: #ADA89f;
+    text-align: center;
+    border-radius: 8px;
+    padding: 2em 0;
+}
+.text-light{
+    color: black;
+}
+.swiper {
+    width: 600px;
+    height: 320px;
+  }
+
+.swiper .swiper-slide .comment-container{
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.swiper .swiper-slide .comments{
+    background-color: white;
+    padding: 1.5em 2em;
+    width: 50%;
+    border-radius: 5px;
+    font-size: .9em;
+    position: relative;
+}
+.swiper .swiper-slide .comments::after{
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 20px solid var(--color-light);
+    z-index: -99;
+}
+.swiper .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+.swiper .profile img{
+    width: 15%;
+    border-radius: 50%;
+    border: 5px solid brown;
+    margin: 10px 0;
+}
+.swiper .profile > a{
+    color: var(--color-light);
+    text-decoration: none;
+}
+.swiper .profile > span{
+    color: black;
+    font-size: .8em;
+}
+
+.swiper .swiper-button-prev, .swiper-button-next{
+    color: brown;
+    
+}
+@media only screen and (max-width: 768px) {
+
+    
+    .board>h1, p{
+        padding: 0 2em;
+    }
+
+    .board{
+        width: 350px;
+    }
+    .swiper{
+        width: 300px;
+    }
+    .swiper .swiper-button-prev, .swiper-button-next{
+        display: none;
+    }
+    .swiper .swiper-slide .comments{
+        background-color: white;
+        padding: 1.5em 2em;
+        width: 60%;
+        border-radius: 5px;
+        font-size: .7em;
+}
 
 }
