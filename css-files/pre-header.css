@@ -42,6 +42,11 @@
     .pre-header-contact{
         display: flex;
         text-align: end;
+        font-size: 10px;
+      }
+      .part1 a{
+        font-size: 20px;
+        margin-right: 10px;
       }
 
     }
