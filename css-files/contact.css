@@ -25,10 +25,13 @@
     flex-basis: 50%;
 }
 .contact-right{
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 .contact-left p{
     margin-top: 40px;
+    width: 280px;
+    word-wrap: break-word;
+    
 }
 .contact-left p i{
     font-size: 14px;
@@ -90,5 +93,9 @@ form input, form textarea{
     }
     .row-container{
         display: block;
+        padding: 0;
+    }
+    .row{
+        margin-top: -20px;
     }
 }
