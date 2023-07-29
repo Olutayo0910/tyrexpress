@@ -1,113 +1,70 @@
-.product-cart-container{
-    margin-top: 0px;  
-}
-
-
-.product-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aliceblue;
-    height: 100%;
-    width: 100%;
-}
-
-.title {
-    justify-content: center;
-    align-items: center;
-    display: flex; 
-}
-
-.cart-image-container {
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-.cart-image-container img {
-    width: 200px;
-}
-.cart-container{
-    display: flex;
-    top: 100px;
-    justify-content: center;
-    align-items: center;  
-    height: 100%; 
-}
-
-.cart-items {
-    width: 350px;
-    background-color: beige;  
-    margin: auto;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    display: block;      
-}
-
-
-.description {
-    border: solid 0.5px;
-    padding: 0px 10px 10px;
+.about{
     display: block;
-    font-size: 14px;
+    margin-top: 40px;
+   
+  
 }
 
-.btn {
-    border: none;
-    background-color: brown;
-    padding: 15px 63px;
-    transition: 0.5s;
-}
-.btn:hover{
-    background-color: gray;
-    color: white;
-}
-
-.item-input {
-    margin-bottom: 20px;
-}
-.input-quantity{
-    padding: 10px 10px;
-}
-
-.item-price {
-    background-color: azure;
-    padding: 0px 5px 5px;
-    border: solid 0.5px;
-}
-
-.order-details{
-    width: 700px;
-    margin-top: 20px;
-    padding: 20px;
+.about-subtitle{
     display: flex;
-    flex-wrap: wrap;
-    text-align: start;
+    justify-content: center;
 }
-.order-details p{
-    width: 100%;
+.about-subtitle span{
+    color: brown;
 }
-
-@media screen and (max-width: 768px) {
-    .cart-items{
-      width: 200px;
-    }
-    .input-quantity{
-        padding: 5px 5px;
-    }
-    .cart-image-container img {
-        width: 150px;
-    }
-    .cart-image-container {
-        width: 300px;
-    }
-    .btn {
-        padding: 10px 60px;
-    }
-    .order-details {
-        max-width: 450px;
-      }
+.abt{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    
+}
+.about-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about-image-container{
+    display: flex;
+    padding: 0;
+    margin-right: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    max-width: 500px;
       
 }
+.about-content p{
+    text-align: justify;
+    
+ }
+.about-content{
+    
+    max-width: 400px;
+}
 
+.about-image-container img{
+    width: 400px;
+    height: 430px;
+   
+}
+@media only screen and (max-width: 768px) {
+    .about-container{
+        display: block;
+        font-size: 15px;
+    }
+    .about-content{
+    
+       
+    }
+    .about-image-container{
+        margin-right: 0px;
+    }
+    .about-subtitle h1{
+        font-size: 24px;
+    }
+
+}
