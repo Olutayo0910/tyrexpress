@@ -25,13 +25,15 @@
     align-items: center;
     background-color: #151515;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
     
 .part {
     margin-top: 30px;
     color: white;
     font-size: 12px;
+    
+    
           
 }
 .part a{
@@ -40,9 +42,7 @@
     font-size: 25px;
     color: white;
     transition: transform 0.5s;
-    
-
-    
+   
 }
 .social-icons a:hover{
     color: brown;
