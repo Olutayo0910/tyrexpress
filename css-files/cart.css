@@ -3,21 +3,18 @@
 }
 .container{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: aliceblue;
-    height: 100%;
+    align-items: center;
 }
 
 .product-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
+    padding: 0px 50px;
+}                            
     
-    height: 100%;
-    width: 80%;
-}
-
 .title {
     justify-content: center;
     align-items: center;
@@ -109,18 +106,15 @@
     .cart-image-container img {
         width: 150px;
     }
-    .cart-image-container {
-       
-    }
-    .cart-container{
-        flex-basis: 100%;
-    }
+    
+
     .btn {
         padding: 10px 60px;
     }
     
     .product-1 {
         display: block;
+        
     }
     .order-details h1{
         font-size: 24px;
