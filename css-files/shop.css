@@ -60,15 +60,9 @@
 .side-shop{   
    
     width: 400px;
-    margin-left: 50px;
-    
-    
+    margin-left: 50px;  
 }
-@media only screen and (max-width: 768px) {
-    .side-shop {
-        display: none;
-    }
-}
+
 .side-shop-list{
     padding: 0 15px;
     background-color: brown;
@@ -89,4 +83,14 @@
 }
 .shop-container-YATONE{
     background-color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .side-shop {
+        display: none;
+    }
+    .shelf-container{
+        width: 100%;
+        padding: 0px 0px;
+    }
 }
