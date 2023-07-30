@@ -18,6 +18,10 @@
     .foot-footer {
        display: block;  
      }
+    .social-icons a:hover{
+    color: brown;
+    transform: none;
+}
     }
 .foot{
     display: flex;
@@ -31,10 +35,7 @@
 .part {
     margin-top: 30px;
     color: white;
-    font-size: 12px;
-    
-    
-          
+    font-size: 12px;         
 }
 .part a{
     margin-right: 25px;
