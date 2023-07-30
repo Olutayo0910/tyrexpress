@@ -12,17 +12,9 @@
     display: flex;
     row-gap: 20px;
     justify-content: space-between;
-    width: 80%;    
+    width: 80%;  
+
 }
-@media only screen and (max-width: 500px) {
-    .foot-footer {
-       display: block;  
-     }
-    .social-icons a:hover{
-    color: brown;
-    transform: none;
-}
-    }
 .foot{
     display: flex;
     justify-content: center;
@@ -35,7 +27,7 @@
 .part {
     margin-top: 30px;
     color: white;
-    font-size: 12px;         
+    font-size: 12px;          
 }
 .part a{
     margin-right: 25px;
@@ -47,5 +39,18 @@
 }
 .social-icons a:hover{
     color: brown;
-    transform: translateY(5px);
+    transform: translate(5px);
+}
+
+@media only screen and (max-width: 500px) {
+    .foot-footer {
+       display: block;  
+     }
+     .social-icons a:hover{
+        color: brown;
+        transform: none;
+    }
+    .part1 {
+        margin-left: 25px;
+    }
 }
