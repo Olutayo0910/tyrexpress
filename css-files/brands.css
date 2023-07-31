@@ -39,4 +39,11 @@
     .brands-subtitle h1{
         font-size: 24px;
     }
+    .brands-image-container {
+        flex-basis: 10%;
+}
+.brands-image-container img{
+    width: 90px;
+    padding: 3px 3px;
+}
 }
